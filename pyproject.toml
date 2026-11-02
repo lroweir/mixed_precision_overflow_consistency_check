@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lroweir-realtimedw_jd226"
+name = "lroweir-mixed_precision_overflow_consistency_check"
 version = "0.1.0"
 description = "在同一个输入里两两比对，检测实时数仓架构师·混合精度的溢出与下溢相关的矛盾表述，把冲突双方原样并排呈现"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lroweir.github.io"
-Repository = "https://github.com/lroweir/realtimedw_jd226"
-Issues = "https://github.com/lroweir/realtimedw_jd226/issues"
+Repository = "https://github.com/lroweir/mixed_precision_overflow_consistency_check"
+Issues = "https://github.com/lroweir/mixed_precision_overflow_consistency_check/issues"
 
 [project.scripts]
-realtimedw_jd226 = "realtimedw_jd226:main"
+mixed_precision_overflow_consistency_check = "mixed_precision_overflow_consistency_check:main"
 
 [tool.setuptools]
-py-modules = ["realtimedw_jd226"]
+py-modules = ["mixed_precision_overflow_consistency_check"]
